@@ -1,0 +1,43 @@
+{
+    "name": "wndr/commerce-afterpay-v3",
+    "description": "Adds Afterpay V3 support to Craft Commerce",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "commerce-afterpay-v3"
+    ],
+    "support": {
+        "docs": "https://github.com/lenvanessen/commerce-afterpay-v3/blob/master/README.md",
+        "issues": "https://github.com/lenvanessen/commerce-afterpay-v3/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lenvanessen",
+            "homepage": "wndr.digital"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0",
+        "payintegrator/afterpay": "^1.5",
+        "craftcms/commerce": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "wndr\\commerce\\afterpay\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Commerce Afterpay V3",
+        "handle": "commerce-afterpay-v3",
+        "developer": "lenvanessen",
+        "developerUrl": "wndr.digital",
+        "documentationUrl": "https://github.com/lenvanessen/commerce-afterpay-v3/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/lenvanessen/commerce-afterpay-v3/master/CHANGELOG.md",
+        "class": "wndr\\commerce\\afterpay\\Afterpay"
+    }
+}
